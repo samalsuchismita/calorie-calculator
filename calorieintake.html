@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.css">
+
+    <title>Calorieintake</title>
+</head>
+
+<body>
+
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar js-sticky-header site-navbar-target bg-dark" role="banner">
+
+        <div class="container">
+            <div class="row align-items-center position-relative">
+
+
+                <div class="site-logo">
+                    <a href="index.html" class="text-black"><span class="text-white">Calorie<span
+                                style="color:#dc143c;">
+                    </a>
+                </div>
+
+                <div class="col-12">
+                    <nav class="site-navigation text-right ml-auto " role="navigation">
+
+                        <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                            <li><a href="home.html" class="nav-link">Home</a></li>
+                            <li><a href="calorieintake.html" class="nav-link">Calorie Intake</a></li>
+                            <li><a href="caloriecheck.html" class="nav-link">Calorie Burn</a></li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+                <div class="toggle-button d-inline-block d-lg-none"><a href="#"
+                        class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="hero bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mt-5 pt-5 justify-content-lg-center ">
+                    <form>
+                        <div class="container">
+                            <div class="card">
+                              <div class="card-content">
+                                <span class="card-title">Add Food</span>
+                                <!-- Form -->
+                                <div class="row">
+                                  <form class="col s12">
+                                    <div class="row">
+                                      <div class="input-field col s12 m6">
+                                        <input id="item-name" type="text" placeholder="Food">
+                                      </div>
+                                      <div class="input-field col s12 m6">
+                                        <input id="item-calories" type="number" placeholder="Calories">
+                                      </div>
+                                    </div> <!-- /.row-->
+                                    <div class="row">
+                                      <div class="col" style="width: 100%">
+                                        <a class="add-btn btn blue darken-3"><i class="material-icons center">add</i></a>
+                                        <a class="update-btn btn orange"><i class="material-icons center">update</i></a>
+                                        <a class="delete-btn btn red"><i class="material-icons center">delete</i></a>    
+                                        <a class="back-btn btn grey right"><i class="material-icons left">arrow_back</i></a>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                                
+                              </div> <!-- /.card-content-->
+                            </div> <!-- /.card-->
+                          </div>
+                      
+                          <!-- Calorie Count -->
+                          <h3 class="center">Total calories: <span class="total-calories">0</span></h3>
+                          <!-- Item List -->
+                          <div class="container">
+                            <ul id="item-list" class="collection">
+                              
+                            </ul>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
